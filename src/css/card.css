@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+html, body {
+  font-family: Lato, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+#left {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color : rgb(106, 106, 247);
+  min-height: 400px;
+  width : 100%;
+  border-radius: 3px;
+  display : flex;
+}
+
+
+
+.card {
+  background-color: #fff;
+  margin: 7px;
+  border-radius: 5px;
+  flex : 1 0 30%;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card-header {
+  padding: 5px 0 0 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+img.logo{
+  height:40px;
+  width:40px;
+}
+
+.card-body {
+  padding: 10px 0 10px 5px;
+}
